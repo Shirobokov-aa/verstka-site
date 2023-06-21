@@ -134,3 +134,22 @@ text-decoration: none;          убрали черту подчеркивани
     border-color: #23A6F0;
     color: #23A6F0;
 }
+
+_________________
+
+<div class="hero__content">
+               <div class="container">              не забываем контейнер
+                <h1>
+                    We Ensure A Best Insurance Service
+                </h1>
+                <p>
+                    We know how large objects will act, but things on a 
+                    small scale just do not act that way.
+                </p>
+                <div class="hero__links">
+                    <a href="">Get Quote Now</a>
+                    <a href="">Learn More</a>
+                </div>
+               </div>
+            </div>
+        </div>
