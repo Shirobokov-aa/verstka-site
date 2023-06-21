@@ -1,0 +1,82 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1040px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__row{
+    padding-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu{
+    width: 100%;
+    margin: 0;
+    padding: 0 45px 0 83px;
+    list-style: none;
+    display: flex;
+
+}
+
+.menu__item + .menu__item{
+    margin-left: 21px;
+}
+.menu__item:last-child{
+    margin-left: auto;
+}
+
+.menu__item a{
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+transition: .3s;
+text-decoration: none;
+
+}
+
+.menu__item a:hover{
+    color: #23A6F0;
+}
+.header__button{
+    background-color: #23A6F0;
+    color: #FFFFFF;
+    border: 1px solid #23A6F0;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    transition: .3s;
+}
+
+.header__button svg{
+    margin-left: 15px;
+}
+.header__button:hover{
+    background-color: #FFFFFF;
+    border-color: #23A6F0;
+    color: #23A6F0;
+}

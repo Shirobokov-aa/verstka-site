@@ -1,0 +1,136 @@
+начинаем верстать
+
+первым делом
+
+отступы
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1040px;  - по ширине экрана
+    width: 96%;  - отступы 2% с каждой стороны
+    margin: 0 auto;  - центр
+    
+}
+
+Начало любой верстки
+
+    <div class="wrapper">
+        <div class="hero">
+            <header class="header">
+
+            </header>
+        </div>
+        <footer class="footer">
+            
+        </footer>
+    </div>
+
+    представлены более правильные стили написания классов
+
+    <a href="/" class="header__logo">
+    <img src="image/logo.svg" alt="">
+    / по умолчанию добовляем, при нажатие на лого поподаем на главную страничку
+
+    сохраняем лого в .svg
+
+    ul.menu>li.menu__item*5 
+    создаем список самого меню
+
+
+    кнопка
+     button.header__button
+
+     
+    скачиваем картинку заднего фона в JPG
+
+    .hero{
+    height: 100vh;   --> всегда 100% высоты экрана
+    background-image: url("../image/background.jpg");  через 2 точки и / добовляем картинку
+    
+                                                     не хватает выравнивание и картинка повторяется
+    background-repeat: no-repeat;       -- не повторяется
+    background-position: center;        --  ставим по центру
+    background-size: cover;             --  ширина во весь экран
+
+}
+
+.header__row{
+    display: flex;      элементы в один ряд
+    justify-content: space-between;   разгоняем элементы по сторонам (всего 3 свойства)
+    align-items: center;   выравниваем по оси Х (ставим в ряд)
+
+}
+
+.menu{
+    width: 100%;                ширина 100%
+     margin: 0;                 отступы
+    padding: 0;                 отступы
+    list-style: none;           маркера убрали
+    display: flex;              выставили элементы в ряд
+    
+}
+
+.menu__item + .menu__item{      знак плюс (+) будут применятся ко последуйщим элементам
+
+    
+}
+
+.menu__item:last-child{         last-child  - обращается к последнему элементу прижали Login к кнопке
+    
+    
+}
+
+.menu__item a{                  всё добавили из проекта Figma
+font-weight: 600;               стиль кнопок
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+transition: .3s;                плавность анимации
+text-decoration: none;          убрали черту подчеркивания
+
+
+}
+
+с макета взяли падинг для расстановки крайних кнопок, 
+и добавили в меню, в котором изначально поставили только 0
+
+.menu{                          
+    width: 100%;
+    margin: 0;
+    padding: 0 45px 0 83px;
+    list-style: none;
+    display: flex;
+
+}
+
+.menu__item a:hover{        при наведение меняем цвет кнопок на преобладающий
+    color: #23A6F0;
+}
+
+.header__button{
+    background-color: #23A6F0;           цвет
+    color: #FFFFFF;                     цвет текста
+    border: 1px solid #23A6F0;          обводка
+    padding: 15px 25px;                 внутренние отступы
+    border-radius: 5px;                 скругление
+    display: flex;                      выравнивание
+    align-items: center;
+    flex-shrink: 0;                     запрещение переноса
+
+    font-weight: 700;                   вставили из проекта Figma стиль для текста
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+при наведение
+.header__button:hover{
+    background-color: #FFFFFF;      меняем цвета местами
+    border-color: #23A6F0;
+    color: #23A6F0;
+}
