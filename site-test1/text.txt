@@ -153,3 +153,102 @@ _________________
                </div>
             </div>
         </div>
+        
+             https://fonts.google.com/?query=mo
+        Шрифт должен быть подключен раньше стилей
+        Шрифты лучше брать от сюда
+
+
+        кнопки
+        .hero__links{
+    display: flex;  выравниваем ссылки
+    justify-content: center;  - выравниваем по центру вертикали и горзонтали
+}
+
+
+
+.hero__links a{             всю информацию берем с фигмы
+padding: 15px 36px;
+text-align: center;
+/* btn-text */
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.2px;
+border-radius: 37px;
+background-color: #23A6F0;
+color: #FFFFFF;
+text-decoration: none;     убираем подчеркивание
+transition: 0.3s;           плавность
+
+}
+
+.hero__links a:hover{               при наведение
+    color: #23A6F0;                
+    background-color: #FFFFFF;      
+}
+
+
+        <div class="about">             новый блок
+            <div class="container">
+                
+            </div>
+        </div>
+
+        .about{
+    position: relative;     позиционирование
+    z-index: 10;            наложение выше картинки
+    margin-top: -100px;
+
+}
+.about__row{
+    display: flex;                                          выравнивание блоков по центру
+}
+.about-item{
+    padding: 35px 40px;                                     выставляем отступы
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);      тень
+    background: #FFF;                                       
+
+}
+.about__item-container{                                     
+    width: 33.3%;                                           отцентровка
+    padding: 15px;                                          отступы
+    
+}
+
+
+_____________________________________________________________
+
+начинаем адаптацию под телефон
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    -   -  отвечает за адаптацию 5я строка
+
+как правило, адаптация по ширине экрана
+
+1920 - большой декстоп
+1366 - старые маки 13дюймов ноуты
+1024 - старые квадратные мониторы
+768 - 1024 - планшеты и айпады
+576(8) - 768 - маленькие планшеты и большие телефоны
+320 - 576 - все современные телефоны
+
+
+
+@media(max-width: 850px){           разрешение с запасом
+    .header__button{                убираем кнопку на планшетах
+        display: none;
+    }
+}
+
+
+@media(max-width: 600px){
+    .menu{
+        flex-direction: column;         выставляем элементы друг под другом
+    }
+}
+
+
+@media (min-width:1024px) and (max-width:1366){             можем комбинировать
+
+}
