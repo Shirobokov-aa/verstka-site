@@ -1,0 +1,39 @@
+live server
+
+
+<main class="main">                                                                                     - рабочая область
+        <div class="container">                                                                         - блок
+            <div class="hero">                                                                          - блок для выравнивая
+                <div class="hero__row">                                                                 - левый блок
+                    <div class="hero__left">                                                            - 
+                        <div class="offer hero__offer">
+                            <a href="#" class="offer__link"></a>
+                            <img src="images/1.png" alt="">
+                            <img src="images/2.jpg" alt="">
+                            <div class="offer__text">GET 48% DISCOUNT</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    .offer__link img:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;                          применяем к картинке / что бы могли картинки как либо изменяться
+
+
+    .offer__link img:nth-child(2)::before{              псевдо элемент
+    content: '';
+    
+}
+}
