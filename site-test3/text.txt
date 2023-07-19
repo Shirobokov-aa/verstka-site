@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+
+    </header>
+
+    <main class="main">
+
+    </main>
+    
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
+
+
+
+
+последовательность создания сайта
+футер необходимо прибивать всегда
+
+сразу
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;                 благодоря двум строчкам футер всегда внизу
+}
+
+.header{
+    flex: 0 0 auto;
+
+    flex-grow: 0;                   ВСЯ ДОСТУПНАЯ ВЫСОТА
+    flex-shrink: 0;                 ЗАПРЕТ СЖАТИЯ И РАСШЕРЕНИЯ
+    flex-basis: auto;               ВЫСОТА ЧТО ТО
+}
+
+.main{
+    flex: 1 0 auto;
+}
+.footer{
+    flex: 0 0 auto;
+}
+
+
+
+это всегда и сразу дефолт 
+
+_____________________________________ HTML _____________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+
+    </header>
+
+    <main class="main">
+
+    </main>
+    
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
+
+____________________________            CSS
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+    flex: 0 0 auto;
+}
+
+.main{
+    flex: 1 0 auto;
+}
+.footer{
+    flex: 0 0 auto;
+}
+
+________________________ ВЫШЕ КАРКАС САЙТА, ПОЧТИ ЛЮБОГО _____________________
+
+
+
+
+ ul.mein-menu__list>li.main-menu__item*4>a.main-menu__link
+
+формула которая сделает вот так как НИЖЕ она делает 4 элемента в списке
+список получается список с классом  (друг под другом)
+
+ ">"  -  обозначает внутри
+
+ <ul class="mein-menu__list">
+    <li class="main-menu__item"><a href="" class="main-menu__link"></a></li>
+    <li class="main-menu__item"><a href="" class="main-menu__link"></a></li>
+    <li class="main-menu__item"><a href="" class="main-menu__link"></a></li>
+    <li class="main-menu__item"><a href="" class="main-menu__link"></a></li>
+ </ul>
+
+ПОЛНОЕ ОБНУДЕНИЕ
+
+
+ ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+интересная фишка  
+
+.block{
+    height: 100vh;          вся высота экрана
+    width: 100vw;           вся ширина экрана
+}
+
+.block{
+    height: calc(100vh - 120px);        вычитаем любую величену
+    width: 100vw;                       
+}
