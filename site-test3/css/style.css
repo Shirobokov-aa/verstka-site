@@ -337,13 +337,9 @@ a {
 
 
 .slider__image {
+    height: 647px;
     margin-top: 50px;
     z-index: 1;
-    border-radius: 3px;
-    background: rgba(0, 0, 0, 0.40);
-}
-
-.img {
     border-radius: 3px;
     background: rgba(0, 0, 0, 0.40);
 }
@@ -374,4 +370,107 @@ a {
     background: #3C3A83;
     margin-top: 20px;
     margin-left: 151px;
+}
+
+.button__desc {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.slider__slide {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+.slider__lr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -120px -32px 0px -32px;
+}
+
+.content__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.image__block {
+    width: 400px;
+    height: 350px;
+}
+
+.content-popular__block {
+    display: flex;
+    width: 400px;
+    height: 350px;
+    flex-shrink: 0;
+}
+
+
+
+
+.popular__desk {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-family: El Messiri;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 105px;
+}
+
+.popular__line {
+    border-bottom: 1px solid #000;
+    width: 923px;
+    margin-left: 70px;
+}
+
+.content-popular__desc {
+    display: flex;
+    margin-top: -170px;
+    color: #FFF;
+    font-family: El Messiri;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 34px;
+}
+
+.content__button-block{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.content__button {
+    width: 357px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #3C3A83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__button-desc {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
