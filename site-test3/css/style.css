@@ -1,5 +1,6 @@
 html,
 body {
+    max-width: 1920px;
     padding: 0;
     margin: 0;
 }
@@ -31,6 +32,7 @@ body {
 }
 
 .footer {
+    margin-top: 115px;
     flex: 0 0 auto;
 }
 
@@ -337,16 +339,14 @@ a {
 
 
 .slider__image {
+    width: 1720px;
     height: 647px;
     margin-top: 50px;
-    z-index: 1;
     border-radius: 3px;
     background: rgba(0, 0, 0, 0.40);
 }
 
 .slide__image--desc {
-    position: relative;
-    z-index: 2;
     color: #FFF;
     font-family: El Messiri;
     font-size: 70px;
@@ -354,7 +354,7 @@ a {
     font-weight: 700;
     line-height: normal;
     margin-top: -29%;
-    margin-left: -25%;
+    margin-left: -24%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -368,8 +368,8 @@ a {
     border-radius: 2px;
     border: 1px solid #3C3A83;
     background: #3C3A83;
-    margin-top: 20px;
-    margin-left: 151px;
+    margin-top: 2%;
+    margin-left: 9%;
 }
 
 .button__desc {
@@ -388,15 +388,16 @@ a {
 .slider__slide {
     display: flex;
     justify-content: center;
-    margin-top: 230px;
+    margin-top: 175px;
 }
 
 .slider__lr {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: -120px -32px 0px -32px;
+    margin: -130px -35px 0px -35px;
 }
+
+
 
 .content__container {
     display: flex;
@@ -433,7 +434,7 @@ a {
 
 .popular__line {
     border-bottom: 1px solid #000;
-    width: 923px;
+    width: 870px;
     margin-left: 70px;
 }
 
@@ -449,12 +450,13 @@ a {
     margin-left: 34px;
 }
 
-.content__button-block{
+.content__button-block {
     width: 1920px;
     display: flex;
     justify-content: center;
     margin-top: 35px;
 }
+
 .content__button {
     width: 357px;
     height: 72px;
@@ -467,6 +469,185 @@ a {
 }
 
 .content__button-desc {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sale__desc-item {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-family: El Messiri;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 105px;
+}
+
+.sale__line {
+    border-bottom: 1px solid #000;
+    width: 1265px;
+    margin-left: 58px;
+}
+
+.sale__button--row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.sale__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #939393;
+    background: #FFF;
+}
+
+
+.sale-button__desc {
+    color: #939393;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sale-button__desc:hover {
+    color: var(--baden, #4C4ABE);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sale__button:hover {
+    border-radius: 2px;
+    border: 1px solid #4C4ABE;
+    background: #FFF;
+}
+
+.sale__container--row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.sale__container--row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.sale__block {
+    width: 400px;
+    height: 546px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.sale-block__image {
+    margin: 18px auto;
+    width: 358px;
+    height: 316px;
+    flex-shrink: 0;
+}
+
+.sale__title {
+    margin-top: -3px;
+    margin-left: 16px;
+    color: #3C3A83;
+    font-family: El Messiri;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sale__undertittle {
+    margin-top: 2px;
+    margin-left: 16px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sale__desc {
+    margin-top: 13px;
+    margin-left: 16px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sale__price {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sale-price__new {
+    color: #3C3A83;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sale-price__old {
+    color: #333;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+
+.sale__button-block {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.sale__button-item {
+    width: 447px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #3C3A83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale__button-desc {
     color: #FFF;
     font-family: Montserrat;
     font-size: 25px;
