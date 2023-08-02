@@ -171,6 +171,7 @@ ul {
 
 .container__footer {
     width: 100%;
+    max-width: 1920px;
     background-color: #333;
     padding: 0 100px;
     box-sizing: border-box;
@@ -204,7 +205,6 @@ ul {
 .footer-top__link {
     display: flex;
     flex-direction: column;
-    margin-left: 61px;
 }
 
 a {
@@ -254,7 +254,7 @@ a {
 
 .footer-bottom {
     display: flex;
-    width: 1920px;
+    width: 1820px;
     height: 101px;
     border-top: 1px solid #939393;
     opacity: 0.5;
