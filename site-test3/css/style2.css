@@ -1,4 +1,3 @@
-
 /* КАК ПРАВИЛО */
 
 
@@ -329,4 +328,112 @@ a {
     height: 62px;
     border-right: 1px solid #444;
     margin: 20px 0px 0px 39px
+}
+
+
+
+/* MAIN */
+
+
+
+.navigator-block__row {
+    margin-top: 30px;
+    margin-left: 100px;
+    color: var(--baden, #333);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navigator-block__img {
+    margin-left: 10px;
+    fill: red;
+}
+
+.navi__svg {
+    fill: red;
+    stroke: red;
+}
+
+svg {
+    fill: red;
+}
+
+.navigator-block__item--1 {
+    margin-left: 13px;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    max-width: 1720px;
+    margin: 0 100px 0 100px;
+    padding: 0 0 0 0;
+}
+
+.container__left {
+    width: 400px;
+}
+
+.container__right {
+    width: 1280px;
+}
+
+.container-left__top {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    /* height: 837px; */
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #CBCACA;
+    background: #FFF;
+    padding: 30px 0 0 20px;
+}
+
+.menu__item {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    /* добавил позиционирование */
+}
+
+.menu__item--desc {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 10px;
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+}
+
+.submenu__item {
+    padding: 8px 10px;
+}
+
+
+.menu__item:hover .submenu {
+    display: flex;
 }
