@@ -137,7 +137,6 @@ ul {
 }
 
 
-<<<<<<< Updated upstream
 
 
 
@@ -265,83 +264,10 @@ a {
 .footer-bottom__item--1 {
     color: #FFF;
     font-family: Montserrat;
-=======
-.header-bottom__row {
-    background-color: #3C3A83;
-    margin: 0 -100px;
-}
-
-.header__botton-link {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    margin: 15px 0px 16px 100px;
-    width: 399px;
-    height: 75px;
-    flex-shrink: 0;
-    text-decoration: none;
-    border-radius: 2px;
-}
-
-.botton__image {
-    padding: 24px 36px 24px 46px;
-}
-
-.botton__link {
-    width: 220px;
-    height: 28px;
-    flex-shrink: 0;
-    color: #3C3A83;
-    font-family: 'Montserrat';
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.catalog__link {
-    text-decoration: none;
-    width: 220px;
-    height: 28px;
-    flex-shrink: 0;
-    color: #3C3A83;
-    font-family: 'Montserrat';
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.header__number {
-    padding-left: 41px;
-    padding-top: 21px;
-}
-
-.number__link a {
-    color: var(--ffffff, #FFF);
-    font-family: 'Montserrat';
-    font-size: 25px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-
-.number__button a {
-    color: #FFF;
-    font-family: 'Montserrat';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration-line: underline;
-    padding-top: 10px;
-}
-
-.desc__item {
-    color: #FFF;
-    font-family: 'Montserrat';
->>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-<<<<<<< Updated upstream
     margin-top: 40px;
 }
 
@@ -728,14 +654,4 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-=======
-    padding-left: 16px;
-}
-.item--1{
-    padding-top: 25px;
-}
-
-.item--2{
-    padding-top: 16px;
->>>>>>> Stashed changes
 }

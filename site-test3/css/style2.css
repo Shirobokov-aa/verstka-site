@@ -397,14 +397,14 @@ svg {
 .container-left__top {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    /* width: 400px; */
     flex-shrink: 0;
 }
 
 .menu {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    /* width: 400px; */
     /* height: 837px; */
     flex-shrink: 0;
     border-radius: 5px;
@@ -706,13 +706,323 @@ svg {
 
 
 .container__right {
+    margin-top: 26px;
+    margin-left: 42px;
+}
+
+.filter {
     display: flex;
     width: 1280px;
     height: 117px;
-    margin-top: 30px;
-    margin-left: 62px;
+    /* margin-top: 30px;
+    margin-left: 62px; */
     flex-shrink: 0;
     border-radius: 3px;
     border: 1px solid var(--baden, #CBCACA);
     background: var(--ffffff, #FFF);
+}
+
+.filter__block {
+    display: flex;
+    align-items: center;
+}
+
+
+.filter__left {}
+
+.filter__block--desc {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    margin-top: 18px;
+}
+
+.filter__block--desc-1 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.filter__block--desc-2 {
+    color: #939393;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 37px;
+}
+
+.filter__block--group {
+    display: flex;
+}
+
+.filter__block--item {
+    display: flex;
+    align-items: center;
+    /* width: 113px; */
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid var(--baden, #3C3A83);
+    background: #FFF;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.block__item-desc {
+    margin-left: 10px;
+    color: var(--baden, #3C3A83);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.block__item--line {
+    height: 30px;
+    border-right: 1px solid #C0C0C0;
+    margin-left: 12px;
+    margin-right: 11px;
+}
+
+.block__item--img {
+    margin-right: 12px;
+}
+
+
+.filter__right {
+    display: flex;
+    align-items: center;
+}
+
+.filter__right--line {
+    border-left: 1px solid #CBCACA;
+    height: 76px;
+    margin-left: 153px;
+}
+
+.filter__right--desc {
+    color: #3C3A83;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 50px;
+    margin-right: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .filter__right:hover{
+    display: block;
+} */
+
+.filter__right--hover {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.catalog__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.sale__container--row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.sale__block {
+    width: 400px;
+    height: 546px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.sale-block__image {
+    margin: 18px auto;
+    width: 358px;
+    height: 316px;
+    flex-shrink: 0;
+}
+
+.sale__title {
+    margin-top: -3px;
+    margin-left: 16px;
+    color: #3C3A83;
+    font-family: El Messiri;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sale__undertittle {
+    margin-top: 2px;
+    margin-left: 16px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sale__desc {
+    margin-top: 13px;
+    margin-left: 16px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sale__price {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sale-price__new {
+    color: #3C3A83;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sale-price__old {
+    color: #333;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+
+.sale__button-block {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.sale__button-item {
+    width: 447px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #3C3A83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale__button-desc {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.catalog__button-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.catalog__button-item {
+    width: 269px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #3C3A83;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog__button-desc {
+    color: #3C3A83;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
