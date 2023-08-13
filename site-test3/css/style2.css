@@ -151,6 +151,186 @@ ul {
     background-color: #3C3A83;
 }
 
+.container__bottom {
+    display: flex;
+    width: 1720px;
+    margin: auto;
+}
+
+.bottom__search--row {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    border-radius: 2px;
+    background: #FFF;
+    /* margin-top: 15px; */
+    position: relative;
+}
+
+.bottom__search {
+    display: inline-block;
+    align-items: center;
+    height: 75px;
+    border-radius: 2px;
+    background: #FFF;
+    margin-top: 15px;
+    position: relative;
+}
+
+
+
+
+.dropdown-content {
+    display: none;
+}
+
+
+
+.bottom__search:hover .dropdown-content {
+    display: block;
+    z-index: 10;
+}
+
+.dropdown__row {
+    display: flex;
+}
+
+.dropdown__block--left {
+    position: relative;
+    width: 547px;
+    height: 1058px;
+    flex-shrink: 0;
+    border-radius: 5px 0px 0px 5px;
+    background: var(--baden, #EEF);
+    background-color: #EEEEFF;
+    z-index: 10;
+}
+
+.dropdown__block--right{
+    display: flex;
+}
+
+.dropdown__item {
+    display: flex;
+    align-items: center;
+    margin-top: 62px;
+    margin-bottom: 32px;
+}
+
+.item__ellipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.70);
+    margin-left: 25px;
+}
+
+.item__desc {
+    color: #3C3A83;
+    font-family: El Messiri;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 19px;
+
+}
+
+.item__line {
+    width: 499px;
+    border-bottom: 1px solid #CBCACA;
+    margin-left: 18px;
+}
+
+.item__img--1 {
+    margin-left: 228px;
+}
+
+.item__img--2 {
+    margin-left: 104px;
+}
+
+.item__img--3 {
+    margin-left: 37px;
+}
+
+.item__img--4 {
+    margin-left: 299px;
+}
+
+.dropdown__block--right {
+    width: 1173px;
+    height: 1058px;
+    flex-shrink: 0;
+    border-radius: 0px 5px 5px 0px;
+    background: #FFF;
+}
+
+.right__block--menu {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 68px;
+}
+
+.right__block--menu-1 {
+    display: flex;
+    margin-top: 61px;
+    margin-left: 68px;
+}
+
+
+.right__desc {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 24px;
+    margin-right: 19px;
+}
+
+.right__desc:hover {
+    color: #4C4ABE;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.right__block--line {
+    width: 1px;
+    height: 959px;
+    border-right: 1px solid #CBCACA;
+    margin-top: 50px;
+    margin-left: 78px;
+}
+
+.right__block--right{
+    position: relative;
+    display: block;
+    margin-top: 60px;
+    margin-left: 82px;
+}
+
+.block__right--desc{
+    margin-top: 33px;
+}
+
+.block__menu--link:hover .right__block--right{
+    display: block;
+}
+
+.block__menu--link{
+    display: inline-block;
+    position: relative;
+}
 
 
 
@@ -167,6 +347,105 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search__img {
+    margin-left: 46px;
+    margin-right: 37px;
+}
+
+.search__desc {
+    margin-right: 45px;
+}
+
+.bottom__desc {
+    margin-left: 41px;
+    margin-top: 21px;
+}
+
+.desc__item--1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.desc__item--2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-top: 10px;
+}
+
+.bottom__desc--2 {
+    margin-top: 25px;
+    margin-left: 19px;
+}
+
+.desc__item--3 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desc__item--4 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 19px;
+}
+
+.right__block {
+    display: flex;
+    margin-left: 338px;
+    margin-top: 19px;
+}
+
+.block__item--1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item__1--desc {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+}
+
+.item__1--line {
+    height: 63px;
+    border-left: 1px solid #EEF;
+    opacity: 0.5;
+    margin: 0 73px;
+}
 
 
 
