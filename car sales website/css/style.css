@@ -794,7 +794,7 @@ button:focus {
     font-weight: 700;
     line-height: 54px;
     /* 122.727% */
-    
+
     margin-top: 57px;
 }
 
@@ -816,4 +816,244 @@ button:focus {
     line-height: 28px;
     /* 155.556% */
     margin-top: 40px;
+}
+
+.process__container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.process__title {
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    /* 122.727% */
+    margin-top: 200px;
+}
+
+.process__line {
+    width: 1280px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    margin-top: 40px;
+}
+
+.process__block {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+}
+
+.process__li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 109px;
+    margin-top: 32px;
+
+}
+
+.process__li--li {
+    color: #F50E30;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    /* 110% */
+}
+
+.process__li--title {
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    /* 122.222% */
+    margin-left: -400px;
+
+}
+
+
+
+.process__block--item {
+    display: none;
+    transition: opacity 0.3s;
+}
+
+.process__block--desc {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 326px;
+    margin-top: 20px;
+}
+
+.process__undertitle {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+}
+
+.process__undertitle--desc {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.process__undertitle--button {
+    display: flex;
+    margin-top: 8px;
+}
+
+.downloud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    direction: ltr;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.downloud:hover {
+    cursor: pointer;
+}
+
+.downloud__desc {
+    color: #F50E30;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    margin-left: 10px;
+
+}
+
+.process__li--img {
+    transition: transform 0.3s;
+}
+
+.process__li--img:hover {
+    transform: rotate(180deg);
+}
+
+.process__li:hover+.process__block--item {
+    display: block;
+    /* opacity: 1; */
+}
+
+.guarantee__container {
+    width: 1890px;
+    height: 1496px;
+    flex-shrink: 0;
+
+    background: linear-gradient(179deg, #F4F6F8 10.42%, rgba(255, 255, 255, 0.00) 99.09%), url(../images/Image_container_garant.jpg), lightgray 0px -520.158px / 100% 172.882% no-repeat;
+}
+
+.guarantee__container--box{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.guarantee__title {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    /* 122.727% */
+    margin-top: 200px;
+
+}
+
+.guarantee__box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    overflow: hidden;
+    gap: 24px;
+}
+
+.box__item {
+    display: flex;
+    width: 344px;
+    height: 160px;
+    padding: 44px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* .box__item--img{
+    display: flex;
+    flex-shrink: 0;
+} */
+
+.box__item--desc {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 150% */
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.guarantee__desc--row {
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guarantee__desc--undertitle {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.guarantee__desc--button-item {
+    color: #F50E30;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+}
+
+.guarantee__undertitle {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    /* 122.727% */
+    margin-top: 100px;
 }
