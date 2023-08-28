@@ -1,0 +1,15 @@
+.container{
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.item{
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+}
