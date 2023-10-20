@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Введите данные кредитной карты</h2>
+        <form action="обработчик.php" method="post">
+            <label for="cardNumber">Номер кредитной карты:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+            
+            <label for="cardHolder">Имя владельца:</label>
+            <input type="text" id="cardHolder" name="cardHolder" required>
+            
+            <label for="expiryDate">Срок действия:</label>
+            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+            
+            <label for="cvv">CVV / CVN номер:</label>
+            <input type="text" id="cvv" name="cvv" required>
+            
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+</html>
